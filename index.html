@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	!-->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<title>Audio Player</title>
+    
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:blue;
+        }
+    </style>
+
+</head>
+
+<body>
+
+	<div class="container">
+        <h5>Desenvolvido por Cesar Carvalho</h5>
+        <div class="panel panel-warning">
+          <div class="panel-heading"><h3><span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> Audio Player Automático</h3></div>
+          <div class="panel-body">
+            <audio src="" controls id="audioPlayer">
+                Desculpe, o seu navegador não suporta html5!
+            </audio>
+            <ul id="playlist">
+                <li class="current-song"><a href="mp3/Cutting%20Crew%20-%20I%20Just%20Died%20in%20Your%20Arms%20Tonight.mp3">Cutting Crew - I Just Died in Your Arms Tonight</a></li>
+
+                <li><a href="mp3/Mike%20+%20The%20Mechanics%20-%20Don't%20Know%20What%20Came%20Over%20Me.mp3">Mike + The Mechanics - Don't Know What Came Over Me</a></li>
+
+                <li><a href="mp3/PLAY%20THE%20GAME%20TONIGHT%20-%20KANSAS.mp3">PLAY THE GAME TONIGHT - KANSAS</a></li>
+            </ul>
+          </div>
+        </div>
+		<h6>Leia o arquivo Documentação.txt</h6>
+		
+        
+        
+        
+
+	</div>
+
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	-->
+	<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+	
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+
+</body>
+
+</html>
